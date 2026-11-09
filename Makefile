@@ -1,4 +1,4 @@
-.PHONY: build clean run
+.PHONY: build install clean run
 
 build:
 	go build -o grn .
