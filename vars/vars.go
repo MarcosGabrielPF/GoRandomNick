@@ -16,7 +16,7 @@ var PossibleCharacters = map[string]string{
 	"Numbers":    "0123456789",
 }
 
-var Version string = "1.0"
+var Version string = "1.3"
 
 var (
 	Characters int
