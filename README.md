@@ -15,3 +15,11 @@
     ```bash
     grn --version
     ```
+
+## How to use
+- In the terminal, run:
+    ```bash
+    grn -c X -n Y
+    ```
+- X = Number of characters in the nickname
+- Y = Whether it should include numbers (true) or not (false)

@@ -8,8 +8,10 @@ import (
 
 func Help() {
 	fmt.Println(
-		vars.Green+"\t'-c 12': "+vars.Reset+"Number of characters.",
+		vars.Green+"\t'-h': "+vars.Reset+"Show the help guide.",
+		vars.Green+"\n\t'-c 12': "+vars.Reset+"Number of characters.",
 		vars.Green+"\n\t'-n false'(or true): "+vars.Reset+"If the nickname will have numbers.",
+		vars.Green+"\n\t'-v': "+vars.Reset+"Show the version.",
 	)
 }
 
